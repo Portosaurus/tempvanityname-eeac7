@@ -1,0 +1,19 @@
+.logoWrapper {
+    transition: transform .2s;
+    padding: 0;
+}
+
+.logo {
+    max-height: 36px;
+}
+
+.logoWrapper:hover {
+    transform: scale(1.1);
+}
+
+.logoText {
+    vertical-align: auto;
+    height: 100%;
+    margin-left: 12px;
+    font-weight: 500;
+}

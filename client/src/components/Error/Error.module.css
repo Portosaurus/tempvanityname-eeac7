@@ -1,0 +1,10 @@
+.errorBox {
+    max-width: 80%;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin: 10px;
+}

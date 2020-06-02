@@ -1,0 +1,75 @@
+.heroProjectTagline {
+    color: #fff;
+    font-size: 60px;
+}
+
+.heroLogo {
+    animation-duration: 2s;
+    animation-name: jackInTheBox;
+    margin-top: 20px;
+}
+
+.featureImage {
+    max-width: 60%;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.featureHeading {
+    font-size: var(--ifm-h3-font-size);
+    padding-top: 1rem;
+}
+
+.section {
+    padding: 72px 0;
+}
+
+.generateBtn {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .generateBtn {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .heroLogo {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heroProjectTagline {
+        font-size: 35px;
+        text-align: center;
+    }
+    .featureImage {
+        margin-top: 30px;
+    }
+}
+
+.authRoot {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.profPic {
+    width: 20vw !important;
+    height: 20vw !important;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .profPic {
+        width: 50vw!important;
+        height: 50vw!important;
+    }
+
+    .authRoot h1 {
+        font-size: 28px;
+    }
+    .authRoot h2 {
+        font-size: 20px;
+    }
+}
